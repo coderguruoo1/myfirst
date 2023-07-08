@@ -1,0 +1,21 @@
+.outer{
+    width: 600px;
+    height: 600px;
+    display: grid;
+    grid-template-rows: repeat(3,auto);
+    grid-template-columns: repeat(3,auto);
+    gap: 10px;
+}
+.square{
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    
+}
+.circle{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: blue;
+
+}
